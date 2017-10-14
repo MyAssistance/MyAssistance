@@ -932,7 +932,7 @@ Download Now
 ========================================================================== */
 .download {
     padding: 120px 0;
-    background-color: #3f6184;
+    background: #ff8306;
 }
 .download h1 {
     margin: 0 0 15px 0;
@@ -948,7 +948,7 @@ footer {
     padding: 100px 0
 }
 footer p {
-    color: #c7cacc;
+    color: #ff8306;
     font-size: 12px;
 }
 footer ul {
@@ -962,7 +962,7 @@ footer li {
     font-weight: 400;
 }
 footer li a {
-    color: #3f6184
+    color: #ff8306
 }
 footer li:last-child {
     margin-right: 0
