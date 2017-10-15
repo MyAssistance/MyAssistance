@@ -878,7 +878,7 @@ Screenshots
     padding: 25% 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(63, 97, 132, 0.85);
+    background-color: rgba(255, 131, 6, 0.6);
     text-align: center;
     font-size: 15px;
     opacity: 0;
@@ -948,24 +948,34 @@ footer {
     padding: 100px 0
 }
 footer p {
-    color: #ff8306;
     font-size: 12px;
 }
+
 footer ul {
-    margin-top: 30px
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
+
+.contact-us {
+    color: black;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
 footer li {
-    float: left;
-    margin-right: 15%;
+    display: inline;
+    font-size: 100%;
+    margin-right: 5%;
     list-style: none;
-    text-transform: uppercase;
     font-weight: 400;
 }
 footer li a {
-    color: #ff8306
+    color: black;
 }
 footer li:last-child {
-    margin-right: 0
+    margin-right: 0px;
 }
 
 /* ==========================================================================
@@ -1108,4 +1118,9 @@ Alterações
 
 .features-slider{
     background: #ff8306;
+}
+
+.logo-text{
+    color: white;
+    font-size: 140%;
 }
