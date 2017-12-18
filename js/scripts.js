@@ -38,6 +38,14 @@ $(document).ready(function() {
 		imagesLoaded: true
 	});
 
+	$('#showcaseSliderdesk').flickity({
+		cellAlign: 'left',
+		contain: true,
+		prevNextButtons: false,
+		imagesLoaded: true
+	});
+
+
 	/***************** Fancybox ******************/
 
 	$(".youtube-media").on("click", function(e) {
