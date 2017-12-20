@@ -1165,6 +1165,10 @@ Waypoints
 /*=================================================================
 Alterações
 =================================================================*/
+a{
+  cursor: pointer;
+}
+
 .youtube-media{
     font-size: 190%; 
     font-weight: bold;
@@ -1192,7 +1196,13 @@ Alterações
 .header-toolbar{
     height: 4vw;
     width: 100vw;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
     background: white;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 .navtag-toolbar{
@@ -1200,7 +1210,7 @@ Alterações
     margin: 10px;
     color: #ff8306;
     font-weight: 500;
-     letter-spacing: 1px;
+    letter-spacing: 1px;
 }
 
 .try-now-box{
