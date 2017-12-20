@@ -815,8 +815,8 @@ Showcase
 
 .device-desk {
     position: absolute;
-    top: -60px;
-    left: 20%;
+    top: 20px;
+    left: -5%;
     min-height: 676px;
     width: 828px;
     background: url('../img/monitor-skeleton.png') no-repeat center center;
@@ -1205,7 +1205,14 @@ Alterações
 
 .try-now-box{
     background: #ff8306;
-    text-align: center; 
+    text-align: center;
+    border: 0px;
+    height: 7vh;
+    border: 5px;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px; 
     vertical-align: middle;
 
 }   
@@ -1214,7 +1221,8 @@ Alterações
     font-weight: 800;
     font-size: 120%;
     color: white;
-         letter-spacing: 1px;
+    line-height: 6vh;
+    letter-spacing: 1px;
 }  
 
 .login-text{
@@ -1259,3 +1267,77 @@ Alterações
 
 .top-45{margin-top:45px !important;}
 .top-90{margin-top:90px !important;}
+
+.price{
+    height: 80vh;
+    width: 100vw;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    border: 0px;
+    border-top: 5px;
+    border-color: orange;
+    border-style: dotted;
+    background: rgb(248,248,248);
+}
+
+.price-header{
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align:center;
+}
+
+.price-span{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.price-card{
+    background: white;  
+    text-align:center;
+    margin-right: 30px;
+    border-color: #ff8306;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 0px;
+    width: 22%;
+}
+
+.price-card-header{
+    padding-top: 25px;
+
+    padding-bottom: 15px;
+    margin: 0px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    background: yellow;
+    color: white;
+    background: rgba(255,131,6, 0.75);
+}
+
+.price-card-header-sub-title{
+    font-weight: 900;
+}
+
+.price-card-pricing{
+    font-size: 54px;
+        padding-top: 5px;
+    font-weight: 900;
+}
+
+.price-card-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sign-button{
+    display: inline-block;
+    margin: 20px 10px 25px 0;
+    padding: 8px 30px;
+    border-radius: 3px;
+    background-color: #ff8306;
+    color: white;
+    font-size: 16px;
+}
